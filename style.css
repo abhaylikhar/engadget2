@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Orbitron:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.engadget{
+    width: 67%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(205,80,138);
+    background: linear-gradient(90deg, rgba(205,80,138,1) 0%, rgba(140,96,186,1) 35%, rgba(68,140,212,1) 100%);
+}
+
+
+
+.engadget h3{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+    font-size: 52px;
+    font-weight:lighter;
+}
+
+.engadget p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.engadget-sign-in{
+    width: 33%;
+    padding: 90px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.engadget-sign-in img{
+    width: 120px;
+    height: 25px;
+   
+    
+}
+
+.engadget-sign-in h3{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.engadget-sign-in input{
+    width: 100%;
+}
+
+.engadget img{
+    height: 100px;
+}
+
+.sign-in{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.form{
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    flex-direction: column;
+   position: relative;
+}
+
+.form input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.next-btn{
+    width: 100%;
+    height: 40px;
+    background-color: #3399cc;
+    margin-top: 25px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.forgot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot p{
+    margin-left: 35px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3399cc;
+}
+
+.create-btn{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #3399cc;margin-top: 25px;
+    color: #3399cc;
+    background-color: white;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 900;
+    border-radius: 2px;
+}
+
+.form h3{
+    margin-top: 25px;
+    font-size: 15px;
+
+}
+
+.google-btn{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #3399cc;margin-top: 25px;
+    background-color: white;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 900;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.google-btn img{
+    width: 35px;
+    height: 35px;
+    background-size:cover;
+    background-position: center;
+    
+}
+
+
+
+@media (max-width:1300px){
+
+   
+    .engadget img{
+        height: 90px;
+    }
+    .engadget h3{
+        font-size: 48px;
+    }
+
+    .engadget p{
+        font-size: 26px;
+    }
+    .engadget-sign-in{
+        padding: 50px;
+    }
+
+    /* engadget h3{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 30px;
+        font-size: 52px;
+        font-weight:lighter;
+    }
+    
+    .engadget p{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 28px;
+        padding-top: 20px;
+    } */
+
+
+}
+
+
+@media (max-width:1100px){
+
+   
+    .engadget img{
+        height: 80px;
+    }
+    .engadget h3{
+        font-size: 44px;
+    }
+
+    .engadget p{
+        font-size: 24px;
+    }
+
+    .engadget-sign-in{
+        padding: 20px;
+    }
+}
+
+@media (max-width:950px){
+
+   
+    .engadget img{
+        height: 70px;
+    }
+    .engadget h3{
+        font-size: 38px;
+    }
+
+    .engadget p{
+        font-size: 20px;
+    }
+
+    .engadget{
+        width: 50%;
+    }
+
+    .engadget-sign-in{
+        width: 50%;
+    }
+
+
+}
+
+@media (max-width:600px){
+
+   
+    .engadget img{
+        height: 50px;
+    }
+    .engadget h3{
+        font-size: 30px;
+    }
+
+    .engadget p{
+        font-size: 18px;
+    }
+    .engadget{
+        display: none;
+    }
+    .engadget-sign-in{
+        width: 100%;
+    }
+
+
+}
